@@ -1,4 +1,5 @@
-package com.bfxy.rabbit.common.serializer;
+package com.fight.common.serializer;
+
 
 /**
  * 	序列化和反序列化的接口

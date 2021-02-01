@@ -1,12 +1,12 @@
-package com.bfxy.rabbit.common.serializer.impl;
+package com.fight.common.serializer.impl;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
 
+import com.fight.common.serializer.Serializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.bfxy.rabbit.common.serializer.Serializer;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;

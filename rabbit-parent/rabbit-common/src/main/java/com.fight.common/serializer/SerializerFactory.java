@@ -1,4 +1,4 @@
-package com.bfxy.rabbit.common.serializer;
+package com.fight.common.serializer;
 
 public interface SerializerFactory {
 	

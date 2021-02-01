@@ -1,4 +1,4 @@
-package com.bfxy.rabbit.api.exception;
+package api.exception;
 
 /**
  * 	$MessageRunTimeException

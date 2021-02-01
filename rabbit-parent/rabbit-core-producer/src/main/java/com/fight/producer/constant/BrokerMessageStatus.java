@@ -1,4 +1,4 @@
-package com.bfxy.rabbit.producer.constant;
+package com.fight.producer.constant;
 
 /**
  * 	$BrokerMessageStatus

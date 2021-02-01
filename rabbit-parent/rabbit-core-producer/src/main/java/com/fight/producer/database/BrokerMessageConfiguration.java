@@ -1,6 +1,4 @@
-package com.bfxy.rabbit.producer.config.database;
-
-import javax.sql.DataSource;
+package com.fight.producer.database;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,6 +8,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.jdbc.datasource.init.DataSourceInitializer;
 import org.springframework.jdbc.datasource.init.DatabasePopulator;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
+
+import javax.sql.DataSource;
 
 /**
  * 	$BrokerMessageConfiguration 

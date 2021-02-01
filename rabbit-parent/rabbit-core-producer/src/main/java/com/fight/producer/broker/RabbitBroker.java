@@ -1,6 +1,7 @@
-package com.bfxy.rabbit.producer.broker;
+package com.fight.producer.broker;
 
-import com.bfxy.rabbit.api.Message;
+
+import api.Message;
 
 /**
  * 	$RabbitBroker 具体发送不同种类型消息的接口

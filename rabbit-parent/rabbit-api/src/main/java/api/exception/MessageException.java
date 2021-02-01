@@ -1,4 +1,4 @@
-package com.bfxy.rabbit.api.exception;
+package api.exception;
 
 /**
  * 	$MessageException 编译时异常

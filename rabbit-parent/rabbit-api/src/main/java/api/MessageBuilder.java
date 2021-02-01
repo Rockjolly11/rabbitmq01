@@ -1,10 +1,10 @@
-package com.bfxy.rabbit.api;
+package api;
+
+import api.exception.MessageRunTimeException;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
-import com.bfxy.rabbit.api.exception.MessageRunTimeException;
 
 /**
  * 	$MessageBuilder 建造者模式

@@ -1,9 +1,11 @@
-package com.bfxy.rabbit.producer.entity;
+package com.fight.producer.entity;
+
+
+
+import api.Message;
 
 import java.io.Serializable;
 import java.util.Date;
-
-import com.bfxy.rabbit.api.Message;
 
 
 /**

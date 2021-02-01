@@ -1,8 +1,10 @@
-package com.bfxy.rabbit.api;
+package api;
+
+
+
+import api.exception.MessageRunTimeException;
 
 import java.util.List;
-
-import com.bfxy.rabbit.api.exception.MessageRunTimeException;
 
 /**
  * 	$MessageProducer

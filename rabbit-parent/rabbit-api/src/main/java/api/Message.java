@@ -1,10 +1,10 @@
-package com.bfxy.rabbit.api;
+package api;
+
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
-import lombok.Data;
 
 /**
  * 	$Message
@@ -46,7 +46,7 @@ public class Message implements Serializable {
 	}
 	
 	public Message(String messageId, String topic, String routingKey, Map<String, Object> attributes, int delayMills,
-			String messageType) {
+                   String messageType) {
 		this.messageId = messageId;
 		this.topic = topic;
 		this.routingKey = routingKey;

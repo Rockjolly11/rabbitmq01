@@ -4,12 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>rabbit-parent</artifactId>
-        <groupId>com.bfxy.base.rabbit</groupId>
+        <groupId>com.fight.rabbit</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>rabbit-core-producer</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fight.rabbit</groupId>
+            <artifactId>rabbit-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fight.rabbit</groupId>
+            <artifactId>rabbit-task</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
+    </dependencies>
 
 
 </project>

@@ -1,4 +1,4 @@
-package com.bfxy.rabbit.api;
+package api;
 
 /**
  * 	$MessageType

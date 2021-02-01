@@ -1,14 +1,14 @@
-package com.bfxy.rabbit.producer.service;
+package com.fight.producer.service;
 
-import java.util.Date;
-import java.util.List;
 
+import com.fight.producer.constant.BrokerMessageStatus;
+import com.fight.producer.entity.BrokerMessage;
+import com.fight.producer.mapper.BrokerMessageMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bfxy.rabbit.producer.constant.BrokerMessageStatus;
-import com.bfxy.rabbit.producer.entity.BrokerMessage;
-import com.bfxy.rabbit.producer.mapper.BrokerMessageMapper;
+import java.util.Date;
+import java.util.List;
 
 @Service
 public class MessageStoreService {

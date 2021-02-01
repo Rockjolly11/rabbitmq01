@@ -1,5 +1,5 @@
 
-package com.bfxy.rabbit.producer.config.database;
+package com.fight.producer.database;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
@@ -14,7 +14,7 @@ public class RabbitProducerMybatisMapperScanerConfig {
     public MapperScannerConfigurer rabbitProducerMapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("rabbitProducerSqlSessionFactory");
-        mapperScannerConfigurer.setBasePackage("com.bfxy.rabbit.producer.mapper");
+        mapperScannerConfigurer.setBasePackage("com.fight.producer.mapper");
         return mapperScannerConfigurer;
     }
 

@@ -1,18 +1,17 @@
-package com.bfxy.rabbit.producer.config.database;
-
-import java.sql.SQLException;
-
-import javax.sql.DataSource;
+package com.fight.producer.database;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.PropertySource;
+
+import javax.sql.DataSource;
+import java.sql.SQLException;
 
 @Configuration
 @PropertySource({"classpath:rabbit-producer-message.properties"})
