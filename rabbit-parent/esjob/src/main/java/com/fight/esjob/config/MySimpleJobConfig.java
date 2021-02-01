@@ -87,7 +87,7 @@ public class MySimpleJobConfig {
 				.monitorExecution(monitorExecution)
 				.monitorPort(monitorPort)
 				.maxTimeDiffSeconds(maxTimeDiffSeconds)
-				.overwrite(false)
+				.overwrite(true)
 				.build();
 		
 		return liteJobConfiguration;

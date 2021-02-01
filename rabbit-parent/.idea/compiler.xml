@@ -8,10 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbit-common" />
-        <module name="rabbit-api" />
+        <module name="rabbit-task" />
         <module name="rabbit-core-producer" />
         <module name="esjob" />
-        <module name="rabbit-task" />
+        <module name="rabbit-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
