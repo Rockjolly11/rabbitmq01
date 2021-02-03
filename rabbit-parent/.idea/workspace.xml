@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc48091-9738-4029-be6b-3d7b5942dcf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/DataflowJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/entity/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/task/SpringDataflowJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/task/test/DemoJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/task/test/TestJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/annotation/ElasticJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/annotation/EnableElasticJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/autoconfigure/JobParserAutoConfigurartion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/autoconfigure/JobZookeeperProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/enums/ElasticJobTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/java/com/fight/task/parser/ElasticJobConfParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-task/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esjob/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/EsJobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/EsJobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/DataflowJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/DataflowJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/JobEventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/JobEventConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/MySimpleJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/MySimpleJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/RegistryCenterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/java/com/fight/esjob/config/RegistryCenterConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esjob/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/esjob/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-core-producer/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-core-producer/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-task/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbit-core-producer/src/main/java/com/fight/producer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbit-task/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,22 +72,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitSpace04\rabbit-parent\es-job\src\main\java\com\fight\esjob" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitSpace04\rabbit-parent\rabbit-task\src\main\resources" />
+      <recent name="E:\GitSpace04\rabbit-parent\esjob\src\main\java\com\fight\esjob\task" />
+      <recent name="E:\GitSpace04\rabbit-parent\rabbit-task\src\main\java\com\fight\task\annotation" />
+      <recent name="E:\GitSpace04\rabbit-parent\rabbit-task\src\main\java\com\fight\task\autoconfigure" />
+      <recent name="E:\GitSpace04\rabbit-parent\rabbit-core-producer\src\main\java\com\fight\producer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fight.task.parser" />
+      <recent name="com.fight.task.enums" />
       <recent name="com.fight.esjob.entity" />
       <recent name="com.fight.esjob.task" />
       <recent name="com.fight.esjob.config" />
-      <recent name="com.fight.esjob.listener" />
-      <recent name="com.fight.esjob" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitSpace04\rabbit-parent\rabbit-core-producer\src\main\java\com\fight\producer" />
-      <recent name="E:\GitSpace04\rabbit-parent\rabbit-core-producer\src\main\resources" />
-      <recent name="E:\GitSpace04\rabbit-parent\rabbit-common\src\main\java\com\fight\common\convert" />
-      <recent name="E:\GitSpace04\rabbit-parent\rabbit-common\src\main\java" />
-      <recent name="E:\GitSpace04\rabbit-parent\rabbit-api\src\main\java\api" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitSpace04\rabbit-parent\es-job\src\main\java\com\fight\esjob" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EsJobApplication (1)">
@@ -144,7 +157,9 @@
       <workItem from="1611758483347" duration="1969000" />
       <workItem from="1612103201772" duration="2706000" />
       <workItem from="1612149936650" duration="5876000" />
-      <workItem from="1612185704309" duration="5198000" />
+      <workItem from="1612185704309" duration="6381000" />
+      <workItem from="1612275800294" duration="602000" />
+      <workItem from="1612358236500" duration="9220000" />
     </task>
     <servers />
   </component>
@@ -179,46 +194,46 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="586" y="160" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1612108901630" />
-    <state width="1506" height="311" key="GridCell.Tab.0.bottom" timestamp="1612190886849">
+    <state width="1506" height="205" key="GridCell.Tab.0.bottom" timestamp="1612369559124">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1612190886849" />
-    <state width="1506" height="311" key="GridCell.Tab.0.center" timestamp="1612190886846">
+    <state width="1506" height="205" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1612369559124" />
+    <state width="1506" height="205" key="GridCell.Tab.0.center" timestamp="1612369559124">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1612190886846" />
-    <state width="1506" height="311" key="GridCell.Tab.0.left" timestamp="1612190886846">
+    <state width="1506" height="205" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1612369559124" />
+    <state width="1506" height="205" key="GridCell.Tab.0.left" timestamp="1612369559124">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1612190886846" />
-    <state width="1506" height="311" key="GridCell.Tab.0.right" timestamp="1612190886846">
+    <state width="1506" height="205" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1612369559124" />
+    <state width="1506" height="205" key="GridCell.Tab.0.right" timestamp="1612369559124">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1612190886846" />
-    <state width="1506" height="311" key="GridCell.Tab.1.bottom" timestamp="1612190886853">
+    <state width="1506" height="205" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1612369559124" />
+    <state width="1506" height="311" key="GridCell.Tab.1.bottom" timestamp="1612368199447">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1612190886853" />
-    <state width="1506" height="311" key="GridCell.Tab.1.center" timestamp="1612190886852">
+    <state width="1506" height="311" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1612368199447" />
+    <state width="1506" height="311" key="GridCell.Tab.1.center" timestamp="1612368199447">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1612190886852" />
-    <state width="1506" height="311" key="GridCell.Tab.1.left" timestamp="1612190886851">
+    <state width="1506" height="311" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1612368199447" />
+    <state width="1506" height="311" key="GridCell.Tab.1.left" timestamp="1612368199447">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1612190886851" />
-    <state width="1506" height="311" key="GridCell.Tab.1.right" timestamp="1612190886852">
+    <state width="1506" height="311" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1612368199447" />
+    <state width="1506" height="311" key="GridCell.Tab.1.right" timestamp="1612368199447">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="311" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1612190886852" />
+    <state width="1506" height="311" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1612368199447" />
     <state x="286" y="0" key="SettingsEditor" timestamp="1612109932624">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="286" y="0" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1612109932624" />
-    <state x="412" y="141" width="725" height="548" key="find.popup" timestamp="1611736595630">
+    <state x="412" y="141" width="725" height="548" key="find.popup" timestamp="1612369340994">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="412" y="141" width="725" height="548" key="find.popup/0.0.1549.831@0.0.1549.831" timestamp="1611736595630" />
+    <state x="412" y="141" width="725" height="548" key="find.popup/0.0.1549.831@0.0.1549.831" timestamp="1612369340994" />
     <state x="179" y="120" key="new project wizard" timestamp="1612109975089">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
